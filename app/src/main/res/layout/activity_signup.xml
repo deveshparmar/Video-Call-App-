@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/login_hero_signup"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/login_hero" />
+
+    <TextView
+        android:id="@+id/txt_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_hero_signup"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:text="Signup"
+        android:textColor="@color/color_text"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:hintTextColor="@color/color_text"
+        app:startIconTint="@color/color_text"
+        app:boxStrokeColor="@color/color_text"
+        android:hint="Name"
+        app:boxStrokeErrorColor="@android:color/holo_red_dark"
+        android:layout_below="@id/txt_signup">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_signup"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextColor="@color/color_text"
+        app:startIconDrawable="@drawable/ic_baseline_alternate_email_24"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="20dp"
+        app:startIconTint="@color/color_text"
+        android:layout_marginEnd="20dp"
+        app:boxStrokeColor="@color/color_text"
+        app:boxStrokeErrorColor="@android:color/holo_red_dark"
+        android:layout_below="@id/name_signup"
+        android:hint="Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_signup"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_baseline_password_24"
+        app:endIconMode="password_toggle"
+        app:startIconTint="@color/color_text"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:boxStrokeColor="@color/color_text"
+        app:hintTextColor="@color/color_text"
+        app:boxStrokeErrorColor="@android:color/holo_red_dark"
+        android:layout_below="@id/email_signup"
+        app:endIconTint="@color/color_text"
+        android:hint="Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/signup_bttn"
+        android:layout_width="wrap_content"
+        android:elevation="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_signup"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="login"
+        app:backgroundTint="@color/color_text"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/goto_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_bttn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        android:text="Already have an Account? Login"
+        android:textAlignment="center"
+        android:textColor="@color/color_text"
+        android:textSize="18sp" />
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/pb_signup"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="@style/SpinKitView.ThreeBounce"
+        app:SpinKit_Color="@color/color_text"/>
+
+
+</RelativeLayout>
