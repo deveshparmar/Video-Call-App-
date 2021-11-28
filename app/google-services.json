@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665115169646",
+    "project_id": "letsmeet-videocallapp",
+    "storage_bucket": "letsmeet-videocallapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665115169646:android:e341f2c66673341a16277f",
+        "android_client_info": {
+          "package_name": "com.codewithdevesh.letsmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665115169646-6k2uvp7rlk15jjmp4jsn8tcl6laqd6oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD84LmS8-y7HRHb7Mlx0mlYNRN0K7CZbF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665115169646-6k2uvp7rlk15jjmp4jsn8tcl6laqd6oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

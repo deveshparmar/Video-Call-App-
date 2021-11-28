@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_clock.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/drawable/ic_setting.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/layout/activity_signup.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Dev/LetsMeet/app/src/main/res/menu/bttm_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Development/LetsMeet/app/src/main/res/layout/activity_dashboard.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/91851/OneDrive/Desktop/Android Development/LetsMeet/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
