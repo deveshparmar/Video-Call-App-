@@ -6,3 +6,4 @@ Video Call App using Jitsi SDK
 -> Simple UI
 -> Using Jisi SDK
 -> Host or join Video call
+-> ProgressBar SpinkitView
