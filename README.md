@@ -1,5 +1,6 @@
 # Video-Call-App-
 Video Call App using Jitsi SDK
+<br>
 -> Material Design
 <br>
 -> Firebase Authentication
